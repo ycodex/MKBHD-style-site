@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>karthik</title>
+    <link>https://ycodex.github.io/</link>
+    <description>Recent content on karthik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>karthik</copyright>
+    <lastBuildDate>Fri, 21 Jun 2019 18:14:40 +0530</lastBuildDate>
+    
+	<atom:link href="https://ycodex.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ycodex.github.io/contact/</link>
+      <pubDate>Fri, 21 Jun 2019 18:14:40 +0530</pubDate>
+      
+      <guid>https://ycodex.github.io/contact/</guid>
+      <description>I would be available on Telegram almost all time . Best would be ping me there for anything. If you don&amp;rsquo;t have Telegram you download it xD.You can also Email me which i rarely see: karthiknaik120@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>$whoami</title>
+      <link>https://ycodex.github.io/about/</link>
+      <pubDate>Fri, 21 Jun 2019 18:13:01 +0530</pubDate>
+      
+      <guid>https://ycodex.github.io/about/</guid>
+      <description>I am Karthik. My main interest, is website development for the past few months now, I have a great passion towards coding. I build and eventually mantain websites.
+It&amp;rsquo;s hard to see me without my mobile or laptop in hand, even if you happen to do so, I would have been sleeping!.
+Im still trying to figure out things in coding.</description>
+    </item>
+    
+  </channel>
+</rss>

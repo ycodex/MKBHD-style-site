@@ -2,14 +2,14 @@ body{
   background-color: #b7baee;
   font-family: Helvetica, sans-serif;
   overflow-y: hidden; 
-overflow-x: hidden; 
+overflow-x: hidden;
   
 }
 #back{
   
   width: 480px;
   padding-left: 180px;
-  padding-top: 82px;
+  padding-top: 100px;
   
 
 
@@ -21,8 +21,8 @@ overflow-x: hidden;
   
   position: absolute;
   
-  padding-top: 200px;
-  right: 630px;
+  padding-top: 220px;
+  right: 665px;
 
   
 }
@@ -31,15 +31,29 @@ overflow-x: hidden;
   
   font-family: Helvetica, sans-serif;
   font-size: 40px;
-  right: 526px;
-  bottom:380px; 
+  right: 550px;
+  bottom:360px; 
 }
 #text{
   position: absolute;
   
   font-family: Helvetica, sans-serif;
   font-size: 20px;
-  right: 545px;
-  bottom:380px; 
+  right: 505px;
+  bottom:255px; 
+}
+#socialbar{
+  position: absolute;
+  padding-bottom: 50px;
 }
 
+li{
+  float: left;
+  right:10px;
+  
+}
+i{
+  font-size: 40px;
+  padding-right: 5px;
+  color:black;
+}
