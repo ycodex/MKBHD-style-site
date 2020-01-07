@@ -1,70 +1,85 @@
-body{
-  background-color: #3d4347;
-  font-family: Helvetica, sans-serif;
-  overflow-y: hidden; 
-overflow-x: hidden;
+section {
   
-}
-#back{
+    float: right;
+    
+       color: white;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        margin-right: -30%;
+        font-family: 'proxima-nova', sans-serif;
+        transform: translate(-50%, -50%)
+        
+    
+    
+    
+
+  }
+  #logo{
   
-  width: 480px;
-  padding-left: 180px;
-  padding-top: 100px;
+    width: 68px;
+    height: 81px;
+    border: 0px;
+    
+  }
+  #text{
+    color: #a3a3a3;
+    
+
+  }
+
+  #back{
+    
+    width: 480px;
+    padding-left: 190px;
+    padding-top: 140px;
+    position: relative;
+    
+    
+    
+    
+     
+     
+    
+  }  
+  body{
+    background-color: #3d4347;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+  }
   
+  i{
+    font-size: 40px;
+    padding-right: 10px;
+    color:white;
+  }
+  #name{
+    
+    font-size: 40px;
+    color: white;
 
 
-}
-#logo{
-  
-  width: 68px;
-  height: 81px;
-  
-  position: absolute;
-  
-  padding-top: 220px;
-  right: 665px;
+  }
+ @media screen and (max-width:736px){
+   #back{
+     
+    
+    width: 400px;
+    padding-top: 180px; 
+    float: right;
+    padding-right: 120px;
+    
+   
 
-  
+   }
+   section{
+    float: right;
+    padding-left: 100px;
+    padding-bottom: 350px;
+   }
+   i {
+    padding: 5px;
 }
-#name{
-  position: absolute;
-  
-  font-family: Helvetica, sans-serif;
-  font-size: 40px;
-  right: 550px;
-  bottom:360px; 
-  color: aliceblue;
-}
-#text{
-  position: absolute;
-  
-  
-  font-size: 20px;
-  right: 515px;
-  bottom:255px; 
-  font-family: 'futura-pt';
-font-weight: 400;
-font-size: 16px;
-
-
- text-transform: uppercase;
- 
- font-weight: 700;
- font-style: normal;
- color: white;
-}
-#socialbar{
-  position: absolute;
-  padding-bottom: 50px;
-}
-
-li{
-  float: left;
-  right:10px;
-  
-}
-i{
-  font-size: 40px;
-  padding-right: 5px;
-  color:white;
-}
+ }
