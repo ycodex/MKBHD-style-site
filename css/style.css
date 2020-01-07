@@ -1,5 +1,5 @@
 body{
-  background-color: #b7baee;
+  background-color: #3d4347;
   font-family: Helvetica, sans-serif;
   overflow-y: hidden; 
 overflow-x: hidden;
@@ -33,14 +33,25 @@ overflow-x: hidden;
   font-size: 40px;
   right: 550px;
   bottom:360px; 
+  color: aliceblue;
 }
 #text{
   position: absolute;
   
-  font-family: Helvetica, sans-serif;
+  
   font-size: 20px;
-  right: 505px;
+  right: 515px;
   bottom:255px; 
+  font-family: 'futura-pt';
+font-weight: 400;
+font-size: 16px;
+
+
+ text-transform: uppercase;
+ 
+ font-weight: 700;
+ font-style: normal;
+ color: white;
 }
 #socialbar{
   position: absolute;
@@ -55,5 +66,5 @@ li{
 i{
   font-size: 40px;
   padding-right: 5px;
-  color:black;
+  color:white;
 }
