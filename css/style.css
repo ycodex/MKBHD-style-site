@@ -84,6 +84,10 @@ section {
    }
    i {
     padding: 5px;
+    
+}
+i:hover{
+  color: #a3a3a3;
 }
  }
 
