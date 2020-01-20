@@ -18,25 +18,7 @@
 
   gtag('config', 'UA-155706901-1');
 </script>
-<script>
-$(document).ready(function() {
-  
-  var counter = 0;
-  var c = 0;
-  var i = setInterval(function(){
-      $(".loading-page .counter h1").html(c + "%");
-      $(".loading-page .counter hr").css("width", c + "%");
-      
-    
-    counter++;
-    c++;
-      
-    if(counter == 101) {
-        clearInterval(i);
-    }
-  }, 50);
-});
-</script>
+
 
 </head>
 <body onload="myFun()">
@@ -106,6 +88,25 @@ $(document).ready(function() {
             preloader.style.display='none';
           }
         </script>
+        <script>
+          $(document).ready(function() {
+            
+            var counter = 0;
+            var c = 0;
+            var i = setInterval(function(){
+                $(".loading-page .counter h1").html(c + "%");
+                $(".loading-page .counter hr").css("width", c + "%");
+                
+              
+              counter++;
+              c++;
+                
+              if(counter == 101) {
+                  clearInterval(i);
+              }
+            }, 50);
+          });
+          </script>
 
 </body>
 </html>
